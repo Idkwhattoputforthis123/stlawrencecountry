@@ -5,8 +5,6 @@
 /* TODO: These base styles are provided - understand what they do */
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -61,18 +59,19 @@ ul {
 
 .navbar {
     /* TODO: Set background color to primary blue */
-    
+    background-color: var(--primary-blue);
     /* TODO: Add padding (15px top/bottom) */
-    
+    padding-top: 15px;
+    padding-bottom: 15px;
     /* TODO: Make it stick to top with position: sticky */
-    
+    position: sticky;
     /* TODO: Set z-index to 100 so it stays on top */
     
 }
 
 .navbar .container {
     /* TODO: Use Flexbox to arrange brand and menu */
-    /* display: flex */
+    display: flex;
     
     /* TODO: Space items apart with justify-content */
     
@@ -83,18 +82,18 @@ ul {
 .nav-brand {
     /* TODO: Style the brand/logo */
     /* Set color to white */
-    
+    color: white;
     /* Set font-size to 1.5rem */
-    
+    font-size: 1.5rem;
     /* Make font-weight bold */
-    
+    font-weight: bold;
 }
 
 .nav-menu {
     /* TODO: Use Flexbox for horizontal menu */
-    
+    display: flex;
     /* TODO: Add gap between menu items (2rem) */
-    
+    gap: 2rem;
 }
 
 .nav-menu li a {
